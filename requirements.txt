@@ -1,0 +1,11 @@
+django
+PayTm
+pytz
+asgiref
+sqlparse
+django-responsive2
+django-crispy-forms
+pillow
+pycryptodome
+waitress
+whitenoise
