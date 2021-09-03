@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ["ecom-shop-007.herokuapp.com","localhost"]
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic'
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,9 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
-    'main',
-    'saler',
-    'coupon',
+    'main.apps.MainConfig',
+    'saler.apps.SalerConfig',
+    'coupon.apps.CouponConfig',
+    'main.apps.MainConfig',
 ]
 
 MIDDLEWARE = [
